@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mask Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Mask detector</h1>
+        <small>powered by bipz</small>
+    </div>
+    <div class="input_area">
+            <div class="form_header">
+                <h3>Find whether person wears a safety mask or not</h3>
+            </div>
+            <form action="/predict" method="post" enctype="multipart/form-data">
+            Select image to upload:
+              <input type="file" name="file" id="file">
+              <input type="submit" value="Detect Masks" name="submit">
+            </form>
+</body>
