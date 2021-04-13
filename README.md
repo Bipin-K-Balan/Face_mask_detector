@@ -18,6 +18,4 @@ Code has been created for both real time streaming video or webcam using Open CV
 
 ### Output sample
 
-![GitHub Logo](https://ibb.co/h7H36Fw)
-Format: ![Alt Text](url)
-https://ibb.co/h7H36Fw
+![op](https://user-images.githubusercontent.com/53367536/114513851-4397a980-9c58-11eb-80d5-ab7e300c13b3.JPG)
