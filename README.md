@@ -1,10 +1,10 @@
 # Face_mask_detector
 
-This is a Tensorflow based object detection(TFOD) model which used to detect whether a person has wearing a mask or not. This is a personal project which inspired from the current apandemic situation.
+This is a Tensorflow based object detection (TFOD) model which used to detect whether a person has wearing a mask or not. This is a personal project which inspired from the current apandemic situation.
 The project is designed to either use as a real time model that instantly detect face mask from straming video or webcam or we can use it as a static model that detect the mask when you upload photo in Web browser.
 
 ### Dataset
-Data set is collected using Image scapper that was created to scrap images of people who wearing face mask and write it into a directory path. Based on the availability of images in the internet our scapper only able to collect near 900 images which is not sufficient for an high performing object detection model. But due to hyperparameter tuning and increasing iterations and selecting good performing SSDlite algorithm, the model managed to give a moderate accuracy on test data set
+Data set is collected using selinuim based Image scapper that was created to scrap images of people who wearing face mask and write it into a directory path. Based on the availability of images in the internet our scapper only able to collect near 900 images which is not sufficient for an high performing object detection model. But due to hyperparameter tuning and increasing iterations and selecting good performing SSDlite algorithm, the model managed to give a moderate accuracy on test data set
 
 ### Training
 The entire model has trained in Paperspace cloud using NVIDIA Quatro P5000 GPU ,it took around 6 hours to train for 60,000 steps with initial learning rate of 0.004.
