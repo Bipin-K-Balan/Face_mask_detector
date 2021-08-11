@@ -1,6 +1,6 @@
 # Face_mask_detector
 
-This is a Tensorflow based object detection (TFOD) model which used to detect whether a person has wearing a mask or not. This is a personal project which inspired from the current apandemic situation.
+This is a Tensorflow based object detection (TFOD) model which used to detect whether a person has wearing a mask or not. This is a personal project which inspired from the current apandemic situation..
 The project is designed to either use as a real time model that instantly detect face mask from straming video or webcam or we can use it as a static model that detect the mask when you upload photo in Web browser.
 
 ### Dataset
