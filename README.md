@@ -7,7 +7,7 @@ The project is designed to either use as a real time model that instantly detect
 Data set is collected using selinuim based Image scapper that was created to scrap images of people who wearing face mask and write it into a directory path. Based on the availability of images in the internet our scapper only able to collect near 900 images which is not sufficient for an high performing object detection model. But due to hyperparameter tuning and increasing iterations and selecting good performing SSDlite algorithm, the model managed to give a moderate accuracy on test data set
 
 ### Training
-The entire model has trained in Paperspace cloud using NVIDIA Quatro P5000 GPU ,it took around 6 hours to train for 60,000 steps with initial learning rate of 0.004.
+The entire model has trained in Paperspace cloud using NVIDIA Quatro P5000 GPU ,it took around 6 hours to train for 50,000 steps with initial learning rate of 0.004.
 
 ### Object Detection Model
 I am using TFOD v 1.3 frame work and using ssdlite_mobilenet_v2 in TFOD model zoo which is pretrained on COCO dataset which provides a good tradeoff between mean average precision and speed compared to other pretrained models. Means it can give better prediction maintaining better fps (can be used in real time predictions).
